@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fbebidas"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.carta.dx.cartadigital.MenuDigital5">
+
+    <ImageButton
+        android:id="@+id/cocacola"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/cocacola" />
+
+    <ImageButton
+        android:id="@+id/clubColombia"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignTop="@+id/cocacola"
+        android:layout_marginStart="42dp"
+        android:layout_toEndOf="@+id/textView24"
+        android:background="@drawable/clubc" />
+
+    <ImageButton
+        android:id="@+id/peroni"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView26"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/peronni" />
+
+    <ImageButton
+        android:id="@+id/mandarinada"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView26"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/peroni"
+        android:background="@drawable/naranja" />
+
+    <ImageButton
+        android:id="@+id/limonda"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView28"
+        android:layout_toEndOf="@+id/textView27"
+        android:background="@drawable/limon" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clubColombia"
+        android:layout_alignStart="@+id/cocacola"
+        android:text="COCACOLA"
+        android:textColor="#020202"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clubColombia"
+        android:layout_alignEnd="@+id/clubColombia"
+        android:layout_alignStart="@+id/clubColombia"
+        android:layout_toStartOf="@+id/peroni"
+        android:text="CLUB COLOMBIA DORADA"
+        android:textColor="#040404"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignStart="@+id/peroni"
+        android:layout_toStartOf="@+id/mandarinada"
+        android:text="CERVEZA PERONI"
+        android:textColor="#020202"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/peroni"
+        android:layout_toEndOf="@+id/textView26"
+        android:text="MANDARINADA"
+        android:textColor="#040404"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/limonda"
+        android:layout_alignTop="@+id/textView27"
+        android:text="LIMONADA"
+        android:textColor="#030303"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cocacola"
+        android:text="$ 3.500"
+        android:textColor="#030303"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/clubColombia"
+        android:layout_below="@+id/clubColombia"
+        android:text="$ 4.500"
+        android:textColor="#040404"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/peroni"
+        android:layout_below="@+id/peroni"
+        android:text="$ 4.500"
+        android:textColor="#040303"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mandarinada"
+        android:layout_below="@+id/mandarinada"
+        android:text="$ 5.000"
+        android:textColor="#020202"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/limonda"
+        android:layout_below="@+id/limonda"
+        android:text="$ 5.000"
+        android:textColor="#040404"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/regresar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/limonda"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/backk" />
+</RelativeLayout>

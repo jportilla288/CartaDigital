@@ -1,0 +1,309 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        android:background="@drawable/fin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.carta.dx.cartadigital.MenuDigital4">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="38dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/pechuga"
+                    android:layout_alignParentStart="true"
+                    android:allowUndo="false"
+                    android:elegantTextHeight="true"
+                    android:text="LASAÑA "
+                    android:textAlignment="center"
+                    android:textColor="#060606"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/lasaña"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/lasana" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/lasaña"
+                    android:text="$ 25.000"
+                    android:textColor="#030303"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/lasaña"
+                    android:layout_below="@+id/textView10"
+                    android:text="(Acompañada de papas a la francessa)"
+                    android:textColor="#050505"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/pechuga"
+                    android:layout_alignStart="@+id/pechuga"
+                    android:layout_toStartOf="@+id/cazuela"
+                    android:text="FILETE DE PECHUGA"
+                    android:textColor="#050505"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/pechuga"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/pechuga" />
+
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView11"
+                    android:layout_alignStart="@+id/pechuga"
+                    android:text="$ 25.000"
+                    android:textColor="#040303"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/pechuga"
+                    android:layout_alignStart="@+id/textView16"
+                    android:layout_alignTop="@+id/textView11"
+                    android:text="(Acompañada de papa a la francesa y ensalda)"
+                    android:textColor="#060606"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/cazuela"
+                    android:layout_alignTop="@+id/textView14"
+                    android:layout_toEndOf="@+id/textView12"
+                    android:layout_weight="1"
+                    android:singleLine="false"
+                    android:text="CAZUELA MARISCOS"
+                    android:textColor="#040303"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/cazuela"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/cazuela" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView17"
+                    android:layout_toEndOf="@+id/textView12"
+                    android:text="$ 30.000"
+                    android:textColor="#060606"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView18"
+                    android:layout_below="@+id/textView18"
+                    android:layout_toStartOf="@+id/salmon"
+                    android:text="(Acompañada de arroz con coco y patacon)"
+                    android:textColor="#040303"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/salmon"
+                    android:layout_alignStart="@+id/salmon"
+                    android:layout_toStartOf="@+id/carne"
+                    android:text="SALMON AL HORNO"
+                    android:textColor="#040303"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/salmon"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/salmon" />
+
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/salmon"
+                    android:layout_alignStart="@+id/textView20"
+                    android:layout_alignTop="@+id/textView22"
+                    android:text="(Acopañado de ensalada y pure de papa)"
+                    android:textColor="#040404"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/salmon"
+                    android:layout_below="@+id/salmon"
+                    android:text="$ 30.000"
+                    android:textColor="#040404"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/carne"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:text="BABY BEEF"
+                    android:textColor="#020202"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/carne"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/carne" />
+
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/textView19"
+                    android:layout_alignStart="@+id/textView15"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="$ 30.000"
+                    android:textColor="#080808"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView21"
+                    android:layout_alignTop="@+id/textView19"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="(Acompañada de ensalada y papa a la francesa)"
+                    android:textColor="#040404"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/Back"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="53dp"
+            android:background="@drawable/backk" />
+
+    </RelativeLayout>
+</ScrollView>

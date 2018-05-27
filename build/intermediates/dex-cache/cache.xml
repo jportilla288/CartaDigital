@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\f96f3a7f25f8bdc2668b00fd88fe85b656f666ed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_f9b064aaec75a9adac7bff2a8b05a1fc422f7285.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\68936fe243b1e536771a3c730378ab5347f9121f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_dd61f7c46082c67d93688b41593417436e6ac618.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_674a24b10f7d0a510435a8395f9ad97bf95c671f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\68936fe243b1e536771a3c730378ab5347f9121f\output\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_f9f5c90c91a6cfdb45553cbc26b2312f5c06b989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\fddc8ea37d82755d33bc17b402abfb6fbd80a64e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_cac433992c5fe34043f4bfebea908f0a4a797912.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\0e164b66ae88fb1409ff24eea78c29286647ea50\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_50b76a0fdfc52ccf93185aa86ab1437ef7968d49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_674a24b10f7d0a510435a8395f9ad97bf95c671f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_674a24b10f7d0a510435a8395f9ad97bf95c671f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\library-1.0.19_637900ac5fdced376b9d4ca060418e26b3a1ecae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\44986db89998e34b86f5aa2672a8ca9425d5b9d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_4cb7f2a2cf0a83be0a8aeccb247fda9ce1b673bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_6b8b5f0c4fe4086896571d3ed573c3ca4d2900e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\31b226bcfc553971aabb0d2c627088cc27e5f7d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_23e2300a649f6b1970d61528471f4d3f8dcc0413.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\ccab12b07a1aaab7c94fc7b5ac563403d9c9f002\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_bb2837b0a41e87682579919218b958d962fbdd8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\4dfbe6e10ba4bf757d1d0b789d17501516d83b97\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_8be4bdc40cecb7c955514ef638fa19f347ce6ff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\library-1.0.19_637900ac5fdced376b9d4ca060418e26b3a1ecae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\e3842b7af68197055dba560b3cfa1a3d0faf97f1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_99b07bb0786da81df9c382019ea30ac0f5ebf775.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\library-1.0.19_637900ac5fdced376b9d4ca060418e26b3a1ecae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jennyandrea\.android\build-cache\7fef2020e74bf13ecd2d17b5dec23c2c4b3ec284\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\jennyandrea\AndroidStudioProjects\CartaDigital\app\build\intermediates\pre-dexed\debug\classes_78138c454914c8794ec2995d1473826aa5f5e03e.jar" />
+    </item>
+
+</items>

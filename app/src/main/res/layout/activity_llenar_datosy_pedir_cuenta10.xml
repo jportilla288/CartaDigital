@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ffactu"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.carta.dx.cartadigital.LlenarDatosyPedirCuenta10">
+
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="TELEFONO:"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        tools:text="TELEFONO:"
+        android:layout_marginStart="27dp"
+        android:layout_below="@+id/editEmail"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editTelefono"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editEmail"
+        android:layout_alignTop="@+id/telefono"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editDireccion"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTelefono"
+        android:layout_alignTop="@+id/direccion"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/telefono"
+        android:layout_below="@+id/editTelefono"
+        android:layout_marginTop="35dp"
+        android:text="DIRECCION:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/direccion"
+        android:layout_below="@+id/editDireccion"
+        android:layout_marginTop="31dp"
+        android:text="NOMBRE:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nombre"
+        android:layout_alignStart="@+id/editDireccion"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="57dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="E-MAIL:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:typeface="normal"
+        tools:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/telefono" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/email"
+        android:layout_marginStart="58dp"
+        android:layout_toEndOf="@+id/direccion"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <ImageButton
+        android:id="@+id/enviar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btpagar"
+        app:srcCompat="@drawable/btfactu"
+        android:layout_marginEnd="11dp"
+        android:layout_alignTop="@+id/editDireccion"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

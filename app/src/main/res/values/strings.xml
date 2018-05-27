@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CartaDigital</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_digital2">MenuDigital2</string>
+    <string name="title_activity_menu_digiital3">MenuDigiital3</string>
+    <string name="title_activity_menu_digital4">MenuDigital4</string>
+    <string name="title_activity_menu_digital5">MenuDigital5</string>
+    <string name="title_activity_menu_digital6">MenuDigital6</string>
+    <string name="title_activity_menu_digital7">MenuDigital7</string>
+    <string name="title_activity_menu_digiital7">MenuDigiital7</string>
+    <string name="title_activity_menu_digital3">MenuDigital3</string>
+    <string name="title_activity_cocina_preparaccion">CocinaPreparaccion</string>
+
+    <string-array name="numero">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+    <string-array name="entardas">
+        <item>México</item>
+        <item>Perú</item>
+        <item>España</item>
+        <item>Colombia</item>
+    </string-array>
+    <string name="title_activity_cuenta">Cuenta</string>
+    <string name="title_activity_menu_digital">MenuDigital</string>
+    <string name="title_activity_metodo_pago">MetodoPago</string>
+    <string name="title_activity_llenar_datosy_pedir_cuenta">LlenarDatosyPedirCuenta</string>
+    <string name="title_activity_menu_d2_papas">MenuD2Papas</string>
+    <string name="title_activity_menu_d2_croquetas">MenuD2Croquetas</string>
+    <string name="title_activity_menu_d2_patacon">MenuD2Patacon</string>
+    <string name="title_activity_menu_d2_arepas">MenuD2Arepas</string>
+    <string name="title_activity_menu_d4_lasagna">MenuD4Lasagna</string>
+    <string name="title_activity_menu_d4_baby_reef">MenuD4BabyReef</string>
+    <string name="title_activity_menu_d4_filete_pechuga">MenuD4FiletePechuga</string>
+    <string name="title_activity_menu_d4_salmon">MenuD4Salmon</string>
+</resources>

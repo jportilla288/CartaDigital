@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carta.dx.cartadigital"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigiital"
+            android:label="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigital2"
+            android:label="" />
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigiital3"
+            android:label="" />
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigital4"
+            android:label="" />
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigital5"
+            android:label="@string/title_activity_menu_digital5" />
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigital6"
+            android:label="" />
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigiital7"
+            android:label="" />
+        <activity
+            android:name="com.carta.dx.cartadigital.Cuenta8"
+            android:label="@string/title_activity_cuenta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.carta.dx.cartadigital.MetodoPago9"
+            android:label="@string/title_activity_metodo_pago" />
+        <activity
+            android:name="com.carta.dx.cartadigital.LlenarDatosyPedirCuenta10"
+            android:label="@string/title_activity_llenar_datosy_pedir_cuenta" />
+        <activity android:name="com.carta.dx.cartadigital.generarFactura" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.carta.dx.cartadigital.MenuDigitalPedir"
+            android:label="@string/title_activity_menu_d2_arepas" />
+    </application>
+
+</manifest>
